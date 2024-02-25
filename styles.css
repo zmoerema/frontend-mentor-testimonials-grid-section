@@ -95,7 +95,7 @@ body, html {
 
 
 /* Mobile breakpoint */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1023px) {
     #wrapper {
         padding: 50px 30px;
     }
@@ -106,7 +106,7 @@ body, html {
 }
 
 /* Desktop breakpoint */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
     #wrapper {
         padding: 50px;
         height: 100%;
