@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-<!-- - Solution URL: [Frontend Mentor](https://your-solution-url.com) -->
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/testimonials-grid-section-YS1DXeCJBY)
 - Live Site URL: [GitHub Pages](https://zmoerema.github.io/frontend-mentor-testimonials-grid-section)
 
 ## My process
