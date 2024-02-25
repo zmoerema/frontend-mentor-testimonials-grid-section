@@ -1,0 +1,110 @@
+:root {
+    --moderate-violet: hsl(263, 55%, 52%);
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(0, 0%, 81%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: "Barlow Semi Condensed";
+    font-weight: 500;
+    font-size: 13px;
+    height: 100%;
+}
+
+#wrapper {
+    background-color: var(--light-grayish-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: grid;
+    gap: 20px;
+}
+
+.testimonial {
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.dark-theme {
+    color: var(--white);
+}
+
+.light-theme {
+    color: var(--very-dark-grayish-blue);
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.pic {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.verified {
+    opacity: 0.5;
+}
+
+.review-short {
+    font-size: 1.6em;
+    font-weight: 500;
+    margin: 20px 0;;
+    opacity: 0.9;
+}
+
+.review-paragraph {
+    opacity: 0.7;
+}
+
+#daniel {
+    background-color: var(--moderate-violet);
+    background-image: url("images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#jonathan {
+    background-color: var(--very-dark-grayish-blue);
+}
+
+#jeanette,
+#kira {
+    background-color: var(--white);
+}
+
+#patrick {
+    background-color: var(--very-dark-blackish-blue);
+}
+
+
+/* Mobile breakpoint */
+@media only screen and (max-width: 767px) {
+    #wrapper {
+        padding: 50px 30px;
+    }
+
+    #container {
+        max-width: 400px;
+    } 
+}
+
+/* Desktop breakpoint */
+@media only screen and (min-width: 768px) {
+    #container {}
+}
